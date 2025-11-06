@@ -1,0 +1,45 @@
+export const packagesData = [
+  {
+    id: 1,
+    name: "Starter",
+    duration: 20,
+    price: 99,
+    features: [
+      "20 Days Active Trading",
+      "Basic AI Strategies",
+      "24/7 Automated Trading",
+      "Telegram Alerts",
+      "5% Average ROI",
+    ],
+  },
+  {
+    id: 2,
+    name: "Professional",
+    duration: 30,
+    price: 199,
+    features: [
+      "30 Days Active Trading",
+      "Advanced AI Strategies",
+      "24/7 Automated Trading",
+      "Priority Telegram Alerts",
+      "10% Average ROI",
+      "Risk Management Tools",
+    ],
+    popular: true,
+  },
+  {
+    id: 3,
+    name: "Enterprise",
+    duration: 40,
+    price: 299,
+    features: [
+      "40 Days Active Trading",
+      "Premium AI Strategies",
+      "24/7 Automated Trading",
+      "Instant Telegram Alerts",
+      "15% Average ROI",
+      "Advanced Risk Management",
+      "Personal Account Manager",
+    ],
+  },
+];
