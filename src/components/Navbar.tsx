@@ -98,12 +98,14 @@ const Navbar = () => {
                   {link.name}
                 </a>
               ))}
-              <div className="flex flex-col gap-2 pt-2 border-t border-border">
-                <Button variant="ghost" size="sm">
-                  Sign In
-                </Button>
-                <Button variant="hero" size="sm">
-                  Get Started
+              <div className="pt-4">
+                <Button 
+                  variant="hero" 
+                  size="sm" 
+                  className="w-full"
+                  onClick={() => window.open('https://t.me/your_bot_username', '_blank')}
+                >
+                  Login with Telegram
                 </Button>
               </div>
             </div>
